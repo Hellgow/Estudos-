@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Self</title>
+
+    <style>
+        .flex-container{
+            max-width: 400px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            display: flex;
+            /* align-itens: center; */
+        }
+
+        .align-container{
+            align-items: center;
+        }
+
+        .item{
+            background-color: rgb(36, 110, 58);
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+
+        .direction{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+   <h1>Row Align Self</h1>
+   <section class="flex-container align-container">
+    <div class="item auto">AAA</div>
+    <div class="item auto">123</div>
+    <div class="item auto">Douglas da Silva Mota Align Self aprendizado</div>
+    <div class="item auto">Item 04</div>
+   </section>
+
+    <section class="flex-container">
+    <div class="item center">AAA</div>
+    <div class="item start">123</div>
+    <div class="item stretch">Douglas da Silva Mota Align Self aprendizado</div>
+    <div class="item end">Item 04</div>
+   </section>
+
+   <section class="flex-container">
+    <div class="item center">AAA</div>
+    <div class="item start">AAA</div>
+    <div class="item center">AAA</div>
+    <div class="item end">AAA</div>
+    <div class="item stretch">Douglas da Silva Mota Align Self aprendizado</div>
+</section>
+
+<h1>Column Align Self</h1>
+<section class="flex-container align-container direction">
+    <div class="item auto">AAA</div>
+    <div class="item auto">123</div>
+    <div class="item auto">Douglas da Silva Mota Align Self aprendizado</div>
+    <div class="item auto">Item 04</div>
+   </section>
+
+   
+    <section class="flex-container direction">
+    <div class="item center">AAA</div>
+    <div class="item start">123</div>
+    <div class="item stretch">Douglas da Silva Mota Align Self aprendizado</div>
+    <div class="item end">Item 04</div>
+   </section>
+
+   <section class="flex-container direction">
+    <div class="item center">AAA</div>
+    <div class="item start">AAA</div>
+    <div class="item center">AAA</div>
+    <div class="item end">AAA</div>
+    <div class="item stretch">Douglas da Silva Mota Align Self aprendizado</div>
+
+</body>
+</html>

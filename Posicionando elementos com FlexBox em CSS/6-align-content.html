@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Content</title>
+    <style>
+        .container{
+            height: 400px;
+            max-width: 350px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item{
+            background-color: rgb(65, 55, 55);
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .center{
+           align-content: center; 
+        }
+
+        .start{
+            align-content: flex-start;
+        }
+
+        .end{
+            align-content: flex-end;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
+        .space-between {
+            align-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Fundamentos Align Content</h1>
+    <p><b>Stretch</b></p>
+    <div class="container stretch">
+        <div class="item">Só sei que nada sei</div>
+        <div class="item">Para ver muita coisa é preciso despregar os olhos de si mesmo..</div>
+        <div class="item">A educação é uma coisa admirável, mas é bom recordar que nada do que vale a pena saber pode ser ensinado.</div>
+        <div class="item">Otimismo é a fé que leva à realização; nada pode ser feito sem esperança.</div>
+        <div class="item">Até mesmo a noite mais escura terminará com o nascer do Sol.</div>
+        <div class="item">O silêncio é de ouro e muitas vezes é resposta.</div>
+        <div class="item">Douglas da Silva Mota</div>
+    </div>
+
+    <p><b>Center</b></p>
+    <div class="container center">
+        <div class="item">Só sei que nada sei</div>
+        <div class="item">Para ver muita coisa é preciso despregar os olhos de si mesmo..</div>
+        <div class="item">A educação é uma coisa admirável, mas é bom recordar que nada do que vale a pena saber pode ser ensinado.</div>
+        <div class="item">Otimismo é a fé que leva à realização; nada pode ser feito sem esperança.</div>
+        <div class="item">Até mesmo a noite mais escura terminará com o nascer do Sol.</div>
+        <div class="item">O silêncio é de ouro e muitas vezes é resposta.</div>
+        <div class="item">Douglas da Silva Mota</div>
+    </div>
+
+    <p><b>Flex Start</b></p>
+    <div class="container start">
+        <div class="item">Só sei que nada sei</div>
+        <div class="item">Para ver muita coisa é preciso despregar os olhos de si mesmo..</div>
+        <div class="item">A educação é uma coisa admirável, mas é bom recordar que nada do que vale a pena saber pode ser ensinado.</div>
+        <div class="item">Otimismo é a fé que leva à realização; nada pode ser feito sem esperança.</div>
+        <div class="item">Até mesmo a noite mais escura terminará com o nascer do Sol.</div>
+        <div class="item">O silêncio é de ouro e muitas vezes é resposta.</div>
+        <div class="item">Douglas da Silva Mota</div>
+    </div>
+
+    <p><b>Flex End</b></p>
+    <div class="container end">
+        <div class="item">Só sei que nada sei</div>
+        <div class="item">Para ver muita coisa é preciso despregar os olhos de si mesmo..</div>
+        <div class="item">A educação é uma coisa admirável, mas é bom recordar que nada do que vale a pena saber pode ser ensinado.</div>
+        <div class="item">Otimismo é a fé que leva à realização; nada pode ser feito sem esperança.</div>
+        <div class="item">Até mesmo a noite mais escura terminará com o nascer do Sol.</div>
+        <div class="item">O silêncio é de ouro e muitas vezes é resposta.</div>
+        <div class="item">Douglas da Silva Mota</div>
+    </div>
+
+    <p><b>Space-Around</b></p>
+    <div class="container space-around">
+        <div class="item">Só sei que nada sei</div>
+        <div class="item">Para ver muita coisa é preciso despregar os olhos de si mesmo..</div>
+        <div class="item">A educação é uma coisa admirável, mas é bom recordar que nada do que vale a pena saber pode ser ensinado.</div>
+        <div class="item">Otimismo é a fé que leva à realização; nada pode ser feito sem esperança.</div>
+        <div class="item">Até mesmo a noite mais escura terminará com o nascer do Sol.</div>
+        <div class="item">O silêncio é de ouro e muitas vezes é resposta.</div>
+        <div class="item">Douglas da Silva Mota</div>
+    </div>
+
+    <p><b>Space-Between</b></p>
+    <div class="container space-between">
+        <div class="item">Só sei que nada sei</div>
+        <div class="item">Para ver muita coisa é preciso despregar os olhos de si mesmo..</div>
+        <div class="item">A educação é uma coisa admirável, mas é bom recordar que nada do que vale a pena saber pode ser ensinado.</div>
+        <div class="item">Otimismo é a fé que leva à realização; nada pode ser feito sem esperança.</div>
+        <div class="item">Até mesmo a noite mais escura terminará com o nascer do Sol.</div>
+        <div class="item">O silêncio é de ouro e muitas vezes é resposta.</div>
+        <div class="item">Douglas da Silva Mota</div>
+    </div>
+
+</body>
+</html>

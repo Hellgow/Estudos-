@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex Basis</title>
+
+    <style>
+
+.flex-container{
+    max-width: 500px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.itens{
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.b-auto{
+    flex-basis: auto;
+}
+
+.fg-1{
+    flex-grow: 1;
+}
+
+.fg-0{
+    flex-grow: 0;
+}
+
+.fg-2{
+    flex-grow: 2;
+}
+
+.b-0{
+    flex-basis: 0;
+}
+
+.w100{
+    flex-basis: 100px;
+}
+
+    </style>
+</head>
+<body>
+    <p><b>Auto</b></p>
+  <div class="flex-container">
+    <div class="itens b-auto fg-1">A</div>
+    <div class="itens b-auto fg-1">DOUGLAS</div>
+    <div class="itens b-auto fg-1">C</div>
+    <div class="itens b-auto fg-1">HELLGOW</div>
+  </div>  
+
+  <p><b>0 (zero)</b></p>
+  <div class="flex-container">
+    <div class="itens b-0 fg-1">A</div>
+    <div class="itens b-0 fg-1">DOUGLAS</div>
+    <div class="itens b-0 fg-1">C</div>
+    <div class="itens b-0 fg-1">HELLGOW</div>
+  </div> 
+
+  <p><b>Basis + Widht</b></p>
+  <div class="flex-container">
+    <div class="itens w100 fg-0 ">A</div>
+    <div class="itens w100 fg-1 ">DOUGLAS</div>
+    <div class="itens w100 fg-2 ">C</div>
+    <div class="itens w100 ">HELLGOW</div>
+  </div> 
+
+</body>
+</html>

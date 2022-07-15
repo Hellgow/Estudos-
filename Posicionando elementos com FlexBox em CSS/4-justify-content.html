@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos Justify Content</title>
+<style>
+    .container{
+        display: flex;
+    border: 2px solid black;
+    max-width: auto;
+    margin-bottom: 10px;
+    }
+
+.item{
+    background-color: rgb(216, 112, 112);
+    margin: 5px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+   
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content:space-around;
+}
+
+.blue{
+   background-color: blue; 
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.red{
+    background-color: red;
+}
+
+.column{
+    flex-direction: column;
+    min-height: 400px;
+
+}
+
+</style>
+</head>
+<body>
+
+<h1> Flex - Start</h1>
+    <section class="container flex-start">
+<div class="item blue">1</div>
+<div class="item green">Item 2</div>
+<div class="item orange">Outro Item</div>
+
+    </section>
+
+<h1>Flex - End</h1>
+    <section class="container flex-end">
+        <div class="item blue">1</div>
+        <div class="item green">Item 2</div>
+        <div class="item orange">Outro Item</div>
+        
+            </section>
+
+<h1>Flex Center</h1>
+    <section class="container flex-center">
+        <div class="item blue">1</div>
+        <div class="item green">Item 2</div>
+        <div class="item orange">Outro Item</div>
+        <div class="item red">Item 3</div>
+        <div class="item">Item 4</div>
+                
+    </section>
+
+    <h1>Space Between</h1>
+    <section class="container space-between">
+        <div class="item blue">1</div>
+        <div class="item green">Item 2</div>
+        <div class="item orange">Outro Item</div>
+        <div class="item red">Item 3</div>
+        <div class="item">Item 4</div>
+                
+    </section>
+
+    <h1>Space Around</h1>
+    <section class="container space-around">
+        <div class="item blue">1</div>
+        <div class="item green">Item 2</div>
+        <div class="item orange">Outro Item</div>
+        <div class="item red">Item 3</div>
+        <div class="item">Item 4</div>
+                
+    </section>
+
+    <section>
+    <h1>Column</h1>
+
+    <p>Flex Start Column</p>
+
+    <section class="container flex-start column">
+        <div class="item blue">1</div>
+        <div class="item green">Item 2</div>
+        <div class="item orange">Outro Item</div>
+        <div class="item red">Item 3</div>
+        <div class="item">Item 4</div>
+                
+    </section>
+
+    <section>
+
+    <p>Flex End Column</p>
+
+    <section class="container flex-end column">
+        <div class="item blue">1</div>
+        <div class="item green">Item 2</div>
+        <div class="item orange">Outro Item</div>
+        <div class="item red">Item 3</div>
+        <div class="item">Item 4</div>
+                
+    </section>
+
+    <section>
+
+<p>Flex Center</p>
+
+    <section class="container flex-center column">
+        <div class="item blue">1</div>
+        <div class="item green">Item 2</div>
+        <div class="item orange">Outro Item</div>
+        <div class="item red">Item 3</div>
+        <div class="item">Item 4</div>
+                
+    </section>
+
+    <p>Space Between</p>
+    <section class="container space-between column">
+        <div class="item blue">1</div>
+        <div class="item green">Item 2</div>
+        <div class="item orange">Outro Item</div>
+        <div class="item red">Item 3</div>
+        <div class="item">Item 4</div>
+                
+    </section>
+
+    <p>Space Around</p>
+    <section class="container space-around column">
+        <div class="item blue">1</div>
+        <div class="item green">Item 2</div>
+        <div class="item orange">Outro Item</div>
+        <div class="item red">Item 3</div>
+        <div class="item">Item 4</div>
+                
+    </section>
+    
+</body>
+</html>

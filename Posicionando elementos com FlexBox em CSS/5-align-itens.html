@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Itens</title>
+<style>
+    .container{
+        max-width: 350px;
+        border: 1px solid black;
+        display: flex;
+    }
+
+    .item{
+        background-color: blueviolet;
+        margin: 5px;
+        color: white;
+        text-align: center;
+        flex: 1;
+    }
+        
+    .center{
+        align-items: center;
+    }
+
+    .stretch{
+        align-items: stretch;
+    }
+
+    .start{
+        align-items: flex-start;
+    }
+
+    .end{
+        align-items: flex-end;
+    }
+
+    .baseline{
+        align-items: baseline;
+    }
+
+    .column{
+        flex-direction: column;
+    }
+
+    .blue{
+   background-color: blue; 
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.central{
+    height: auto;
+    justify-content: center;
+}
+
+.central .item{
+    flex: 0;
+    padding: 20px;
+}
+
+</style>
+
+</head>
+<body>
+    <h1>Linhas</h1>
+    <p><b>Center</b></p>
+    <section class="container center">
+        <div class="item blue">Douglas da Silva Mota</div>
+        <div class="item green">Não confunda jamais conhecimento com sabedoria. Um o ajuda a ganhar a vida; o outro, a construir uma vida.</div>
+        <div class="item red">Estrutura Basica com Align Itens</div>
+    </section>
+
+<p><b>Stretch</b></p>
+<section class="container stretch ">
+    <div class="item blue">Douglas da Silva Mota</div>
+        <div class="item green">Não confunda jamais conhecimento com sabedoria. Um o ajuda a ganhar a vida; o outro, a construir uma vida.</div>
+        <div class="item red">Estrutura Basica com Align Itens</div>
+</section>
+
+<p><b>Start</b></p>
+<section class="container start ">
+    <div class="item blue">Douglas da Silva Mota</div>
+        <div class="item green">Não confunda jamais conhecimento com sabedoria. Um o ajuda a ganhar a vida; o outro, a construir uma vida.</div>
+        <div class="item red">Estrutura Basica com Align Itens</div>
+</section>
+
+<p><b>End</b></p>
+<section class="container end ">
+    <div class="item blue">Douglas da Silva Mota</div>
+        <div class="item green">Não confunda jamais conhecimento com sabedoria. Um o ajuda a ganhar a vida; o outro, a construir uma vida.</div>
+        <div class="item red">Estrutura Basica com Align Itens</div>
+</section>
+
+<p><b>Baseline</b></p>
+<section class="container baseline ">
+    <div class="item blue">Douglas da Silva Mota</div>
+        <div class="item green"><br>Não confunda jamais conhecimento com sabedoria. Um o ajuda a ganhar a vida; o outro, a construir uma vida.</div>
+        <div class="item red">Estrutura Basica com Align Itens</div>
+</section>
+
+<h1>Column</h1>
+<p><b>Center</b></p>
+<section class="container center column">
+    <div class="item blue">Douglas da Silva Mota</div>
+        <div class="item green">Não confunda jamais conhecimento com sabedoria. Um o ajuda a ganhar a vida; o outro, a construir uma vida.</div>
+        <div class="item red">Estrutura Basica com Align Itens</div>
+</section>
+
+<p><b>Stretch</b></p>
+<section class="container stretch column ">
+    <div class="item blue">Douglas da Silva Mota</div>
+    <div class="item green">Não confunda jamais conhecimento com sabedoria. Um o ajuda a ganhar a vida; o outro, a construir uma vida.</div>
+    <div class="item red">Estrutura Basica com Align Itens</div>
+</section>
+
+<p><b>Start</b></p>
+<section class="container start column">
+    <div class="item blue">Douglas da Silva Mota</div>
+    <div class="item green">Não confunda jamais conhecimento com sabedoria. Um o ajuda a ganhar a vida; o outro, a construir uma vida.</div>
+    <div class="item red">Estrutura Basica com Align Itens</div>
+</section>
+
+<p><b>End</b></p>
+<section class="container end column ">
+    <div class="item blue">Douglas da Silva Mota</div>
+    <div class="item green">Não confunda jamais conhecimento com sabedoria. Um o ajuda a ganhar a vida; o outro, a construir uma vida.</div>
+    <div class="item red">Estrutura Basica com Align Itens</div>
+</section>
+
+<p><b>Baseline</b></p>
+<section class="container baseline column ">
+    <div class="item blue">Douglas da Silva Mota</div>
+    <div class="item green"><br>Não confunda jamais conhecimento com sabedoria. Um o ajuda a ganhar a vida; o outro, a construir uma vida.</div>
+    <div class="item red">Estrutura Basica com Align Itens</div>
+</section>
+
+<p><b>Alinhamento Central a Tela</b></p>
+<section class="container central center">
+    <div class="item">A partir do momento que senti que conhecia você profundamente, percebi que além do amor, havia uma sensação diferente. Um algo mais que só consegui identificar um tempo depois, quando tive a certeza que o amor que sentia por você era mesmo um amor eterno.
+
+        Percebi que meu amor era maior que aquele sentido antes, pois mesmo após uma discussão, não aparecia mais nenhum tipo de ressentimento. O amor passou a ocupar espaços antes preenchidos por outros sentimentos, que impediam a melhor das emoções; o amor sem qualquer raiva ou descontentamento.</div>
+</section>
+
+</body>
+</html>
