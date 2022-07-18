@@ -1,0 +1,148 @@
+Para grande parte dos usuários de internet de hoje, pode parecer natural que as páginas de um site, vistas através de um navegador, sejam capazes de fornecer informações dinâmicas, possuírem gráficos interativos ou executarem ações como exibir mapas ou até mesmo enviar informações de um simples formulário em apenas um clique, mas nem sempre foi assim.
+
+Até meados dos anos 90, as páginas da internet eram estáticas.
+
+Isso não significa que nenhuma informação pudesse ser enviada e respondida, mas, quando isso acontecia, minutos e minutos se passavam até que um retorno pudesse ser visualizado.
+
+Isso acontecia porque, a grosso modo, todas as ordens dadas aos navegadores precisavam ser enviadas a um servidor externo para, lá, serem executadas e, então, retornarem ao seu ponto de partida.
+
+Passados alguns anos deste padrão, em 1995, um pequeno evento mudou radicalmente a maneira como scripts simples eram executados em páginas da web.
+
+Com o objetivo de tornar a navegação na internet mais rápida e fácil, foi desenvolvida uma linguagem de programação que hoje conhecemos como JavaScript.
+
+Ao longo deste conteúdo, explicarei com mais detalhes o que é JavaScript, qual foi o contexto de sua criação, o que pode ser feito com JS e como dominar esta que é uma das linguagens mais versáteis do mercado de tecnologia.
+
+Vamos lá?
+
+O que é JavaScript?
+JavaScript é uma linguagem de programação de alto nível criada, a princípio, para ser executada em navegadores e manipular comportamentos de páginas web.
+
+Segundo a Mozilla Foundation, atual nome da antiga Netscape Communications Corporations, empresa responsável pela criação do JS, "JavaScript é uma linguagem de programação, leve, interpretada, orientada a objetos, baseada em protótipos e em first-class functions (funções de primeira classe), mais conhecida como a linguagem de script da Internet."
+
+Com seus scripts é possível incluir, em uma página estática, elementos dinâmicos como mapas, formulários, operações numéricas, animações, infográficos interativos e muito mais.
+
+O JavaScript é uma das mais importantes tecnologias voltadas para o front-end e, unindo-se ao trio HTML, CSS e PHP, formam um grupo de linguagens que abrangem praticamente todas as exigências do desenvolvimento de uma página completa, dinâmica e com boa performance.
+
+Do final dos anos 90 até meados dos anos 2000, o JS ganhou grande popularidade ao ser utilizado por grandes empresas para a construção de seus sites, como o Facebook, por exemplo.
+
+Alguns exemplos de sites que utilizam JS em seu front e back-end hoje em dia são Ebay, LinkedIn e Yahoo.
+
+Mas o JS não se restringe mais apenas às páginas e aos navegadores, como foi durante vários anos: com o advento de diversos frameworks, APIs, melhorias e criação de centenas de funções, hoje já é possível utilizar JavaScript em aplicativos mobile, softwares para desktop e até mesmo em back-end.
+
+Como o JavaScript funciona?
+JavaScript, originalmente, é uma linguagem de programação client-side, ou seja, é executada do lado do usuário, mais especificamente pelo navegador utilizado por este usuário.
+
+Em outras palavras, isso significa que todas as suas ações são processadas na máquina de quem as utiliza, sem a necessidade de enviá-las a nenhum outro ambiente.
+
+Como nada é enviado a nenhum servidor externo para processamento, as respostas são imediatas.
+
+Vamos a um exemplo de aplicação de JS:
+
+Imagine que, ao fazer a compra de dois ou mais produtos em um e-commerce, você seja direcionado à página de checkout e, lá, veja um resumo dos seus itens e o valor total a ser pago por eles.
+
+O pequeno box onde é feito o cálculo do total da sua compra, e que se modifica quando um item é incluído ou excluído, ou ainda quando é ativado um cupom de desconto, pode ser desenvolvido com JavaScript.
+
+Para que serve o JS?
+Além das aplicações citadas acima, como elementos dinâmicos dentro de uma página simples, graças à criação de bibliotecas de terceiros, como por exemplo o Node.js, a quantidade de campos onde o JS pode ser aplicado se expandiu consideravelmente.
+
+Veremos abaixo onde esta linguagem de programação pode ser utilizada e quais são as suas contribuições possíveis em cada uma destas diferentes frentes de programação.
+
+Desenvolvimento web
+O desenvolvimento web é a primeira e mais básica utilidade para o JavaScript.
+
+Criado para rodar no antigo navegador Netscape, sua popularidade se consolidou um ano depois, quando a Microsoft passou a rodar JS em seu browser da época.
+
+Hoje, pelos seus códigos serem implantados diretamente em HTML, praticamente todos os navegadores e sistemas operacionais do mercado rodam esta tecnologia sem nenhum empecilho.
+
+Os mais famosos frameworks para a aplicação de JavaScript em desenvolvimento web são jQuery, ReactJS, Vue.JS e Angular.
+
+Desenvolvimento mobile
+Dentro do ecossistema de expansão das utilizações do JavaScript, entraram diversas bibliotecas e frameworks que permitem sua aplicação no desenvolvimento de aplicativos mobile, seja em front ou back-end.
+
+O que essas ferramentas fazem, a grosso modo, é simular o ambiente de um navegador para simular o JS ou transpilar o JavaScript para a linguagem nativa de cada modelo de dispositivo móvel para qual o aplicativo estará disponível.
+
+Com o surgimento destes frameworks a utilização não só tornou-se possível, como também incrivelmente acessível.
+
+Entre as mais populares estão a VueJS, React Native, PhoneGap, o Ionic Framework, Electron, Flutter e suas centenas de plugins.
+
+Criação de sistemas back-end
+A chegada do Node.js, o mais popular ambiente de execução server-side para JS, finalmente deu ao JavaScript a possibilidade de ser utilizado no back-end.
+
+Com isso, a criação de sistemas com JavaScript tornou-se muito comum.
+
+Criação de plataformas e sistemas de armazenamento de informações para redes sociais e sites de notícias são algumas das mais populares aplicações de JS em back-end.
+
+Games
+O desenvolvimento de jogos também está entre as utilidades do JavaScript.
+
+Graças à versatilidade desta linguagem, esta prática cresceu muito nos últimos anos.
+
+Um dos mais populares frameworks para o desenvolvimento de games é o Phaser, onde jogos completos podem ser criados apenas com HTML, CSS e JS.
+Acesse aqui uma lista do MDN web docs com diversos exemplos de jogos para navegador criados com JavaScript e divirta-se!
+
+Quais são as vantagens e desvantagens do JavaScript?
+O JavaScript é uma linguagem de programação bastante estimada pelo mercado.
+
+Mas, se você deseja se tornar um programador e ainda está indeciso sobre suas especializações ou com que linguagem começar a sua carreira, veja abaixo uma lista das maiores vantagens e desvantagens do trabalho com JS.
+
+Vantagens
+Não é à toa que JavaScript é, na maioria das vezes, a primeira linguagem de programação que um recém desenvolvedor aprende.
+
+Isso acontece porque JS é uma ótima linguagem para um primeiro contato com a programação e, por consequência, para se estudar lógica de programação.
+
+Entre outros grandes benefícios de se programar em JavaScript, estão:
+
+Versatilidade da linguagem;
+Rapidez de leitura e, portanto, rapidez de execução;
+Sintaxe acessível;
+Não precisa ser compilada — ou seja, os navegadores são capazes de interpretá-la por conta própria;
+Ótima linguagem para iniciantes em programação;
+Compatível com uma grande variedade de navegadores e plataformas;
+Código leve;
+Curva de aprendizagem rápida;
+Grande comunidade ao redor do mundo.
+Desvantagens
+Como tudo tem dois lados, o JS também conta com algumas desvantagens.
+
+Entre elas, estão:
+
+Poucos recursos voltados à segurança;
+Pode conter brechas para a execução de ações maliciosas;
+O Node.js está propenso a mais vazamento de memória em processos de execução longa.
+Como aprender JavaScript?
+Curto e direto: estudando!
+
+Por ter uma curva de aprendizagem bastante interessante, é muito corriqueiro que vejamos cursos de desenvolvimento ensinando JavaScript junto com lógica de programação antes de qualquer outra linguagem.
+
+A razão deste método ter se popularizado é que, por ter uma base muito simples, o JS é a linguagem perfeita para que os conceitos de lógica possam ser compreendidos, ao mesmo tempo que a própria prática de programar corrobora essa compreensão, de forma simples e clara.
+
+A velocidade deste aprendizado, porém, vai depender da quantidade de horas estudadas por dia, do nível de dedicação e da constância que o aluno empenhará neste processo.
+
+É importante ressaltar que para que um conhecimento seja absorvido da melhor maneira possível, a regularidade é fundamental.
+
+Na Kenzie Academy Brasil, você estuda JavaScript no primeiro módulo do nosso curso de programação full stack.
+
+Em apenas 12 meses você estará totalmente capacitado para atuar como programador nas categorias de front e back-end, além de estar familiarizado com as mais utilizadas bibliotecas e frameworks do mercado.
+
+E o melhor: você só paga pelos seus estudos após concluí-los!
+
+Com o método de pagamento ISA (Income Share Agreement), você só paga pelo seu curso após se alocar no mercado de trabalho com uma remuneração mínima de R$ 3.000,00.
+
+Quem criou o JavaScript?
+Esta inovadora linguagem foi criada no ano de 1995, como dito no início deste texto, pelo programador Brendan Eich que, na época, trabalhava para o navegador Netscape.
+
+Com o objetivo de trazer mais "vida" à uma internet até então desenhada por imagens estáticas e textos, a criação de uma linguagem de scripts acabou se tornando um grande trunfo competitivo para o Netscape.
+
+Na época, os navegadores não eram nativos nos sistemas operacionais e para ter acesso a um software era necessário comprá-lo. Com o JavaScript, o Netscape saiu à frente de seus concorrentes e se tornou o navegador mais utilizado do mercado em 1995.
+
+Qual a diferença entre Java e JavaScript?
+Está é uma dúvida muito comum entre aqueles que não estão inseridos no mercado de tecnologia (e muitas vezes até mesmo para os que estão!): afinal, qual a diferença entre JavaScript e Java?
+
+Java é uma linguagem de programação, orientada a objetos, criada também em 1995 por James Hosling.
+
+O nome semelhante não foi uma coincidência: com a crescente demanda pelo chamado LiveScript, primeiro nome que o JS recebeu, estipulou-se que ele deveria ter uma sintaxe semelhante ao Java, ou seja, adotar elementos de linguagens já existentes, como Python, Perl e Scheme.
+
+Como o Java, na época, já era ostensivamente utilizado, a união das duas linguagens foi estratégica e o LiveScript foi definitivamente renomeado para JavaScript, pegando carona em sua popularidade através de sua nomenclatura.
+
+Conclusão
+Se você está querendo começar na programação e procurando os melhores meios para se inserir no mercado de tecnologia, investir no aprendizado de JavaScript pode ser a sua melhor opção!
